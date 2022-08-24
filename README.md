@@ -11,10 +11,14 @@
 </div>
  
 
+ 
+
 
 | Parciales | Tema |
 | --------- | ------ |
 | # 1 | HTML/CSS |
 | # 2 | JavaScript |
-| #3 | Backend (PhP) |
+| # 3 | Backend (PhP) |
+
+
 
