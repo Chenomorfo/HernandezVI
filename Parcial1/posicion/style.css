@@ -1,0 +1,43 @@
+
+
+.relatBox {
+
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    top: 60px;
+    left: 80px;
+    position: relative;
+    border-radius: 150px;
+
+}
+
+.absBox {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    border-radius: 200px;
+    left: 100px;
+}
+
+.abs2Box {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    border-radius: 200px;
+}
+
+.smileBox {
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border-radius: 20px;
+}

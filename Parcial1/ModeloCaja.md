@@ -18,4 +18,3 @@ En CSS se determina el tamano, posicion, y propiedades (color, fondo, etc.) de e
 *Finalmente*, para elementos en linea no reemplazados, la cantidad de espacio ocupado esta determinada por la propiedad *line-height*, aunque los bordes y el relleno se muestran alrededor del contenido
 
 ##### Informacion: https://www.w3schools.com/css/css_boxmodel.asp
-

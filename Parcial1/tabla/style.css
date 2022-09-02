@@ -1,0 +1,26 @@
+table{
+    background-color: aqua;
+}
+
+table tr{
+    text-align: center;
+}
+
+table tr th{
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+
+
+
+table tr td{
+    font-size: 1.2em;
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+
+table tr td:hover{
+    background-color: brown;
+font-size: 1.4em;
+}
