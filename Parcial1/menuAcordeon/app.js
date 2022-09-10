@@ -64,7 +64,7 @@ function SelectText(value) {
     text.innerHTML = Warcraft.desc
             break;
         case 3:
-            title.innerHTML = 'Historias de SciFi/Fantasia'
+            title.innerHTML = 'Historias de Amor'
             text.innerHTML = `
                 <ul><li><div>
                 <p>${BelowStar.name}</p><p>${BelowStar.author}</p>
@@ -94,7 +94,6 @@ LoveCraft = {
     img: "./imgs/chtulhu.jpg",
     desc: "El narrador de esta historia comienza una insólita investigación tras la muerte en extrañas circunstancias de su tío abuelo George Gammell Angell, profesor de lenguas semíticas en la Universidad de Brown.  Siguiendo los pasos de su tío, así como los de otros personajes vinculados a él por sus oscuros estudios, el narrador entra en contacto con un material de lo más sensible: unas horripilantes historias que giran en torno a un arcano monstruo o ser cósmico llamado Cthulhu que amenaza la cordura y la vida de cuantos son conscientes de su existencia."
 }
-
 It = {
     name: 'IT (ESO)',
     author: 'Stephen King',

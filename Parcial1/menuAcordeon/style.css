@@ -1,72 +1,75 @@
-*{
+* {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.4rem;
-    background-color: aqua;
+    background-color: rgb(239, 124, 243);
 }
 
-.div40{
-    
+.div40 {
+
     width: 40%;
     height: 100%;
     float: left;
 }
 
-.div60{
+.div60 {
     width: 60%;
     height: 100%;
     float: right;
     display: block;
 }
 
-.div60 ul{
+.div60 ul {
     display: flex;
     text-align: center;
 }
 
-.div60 ul div{
+.div60 ul div {
     width: 50%;
 }
-.div60 ul div img{
+
+.div60 ul div img {
     width: 100%;
+    border-radius: 20px;
 }
 
 
 
 
-/* Menu Cascada */
-ul{
+/* Menu Acordeon */
+ul {
     display: block;
     list-style: none;
 }
 
-ul li{
+ul li {
     margin-bottom: 10px;
     display: flex;
 }
 
 ul a {
     color: black;
-    background-color: green;
+    background-color: #ff3;
     padding: 5px 2px;
     border-radius: 20px;
 }
 
-ul li ul{
+ul li ul {
     display: none;
     margin-bottom: 5px;
 }
 
-ul li:hover ul{
+ul li:hover ul {
     display: block;
-    animation: ImHere 1.5s ;
+    animation: ImHere 1.2s;
 }
 
 @keyframes ImHere {
-    0%{
+    0% {
         opacity: 0%;
     }
-    100%{
+
+    100% {
         opacity: 100%;
     }
 }
