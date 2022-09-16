@@ -1,0 +1,92 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    width: 100vw;
+    height: 100vh;
+}
+
+.sideBar{
+    padding-top: 50px;
+    float: left;
+    background-color: white;
+    width: 15vw;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    color: black;
+    background-color: unset;
+    transition: background-color 0.5s;
+}
+
+a:hover{
+    background-color: silver;
+    color: black;
+}
+
+.info{
+    float: left;
+    width: 85vw;
+    background-color: silver;   
+    padding: 1px 16px;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+p{
+    width: 80%;
+    margin-top: 50px;
+font-family: monospace;
+font-size: 1.8rem;
+    background-color: unset;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:801px) {
+    
+    .sideBar{
+    padding-top: 0;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .sideBar a{
+        float: left;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    .sideBar{
+    padding-top: 0;
+        float:none;
+        width: 100%;
+        height: auto;
+    }
+    .info{
+        float: none;
+        width: 100%;
+    }
+    
+
+}
+
