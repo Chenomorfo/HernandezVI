@@ -1,0 +1,137 @@
+body{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    background-color: aqua;
+}
+
+.div40{
+    
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.div60{
+    width: 60%;
+    height: 100%;
+    float: right;
+    display: block;
+}
+
+.div60 ul{
+    display: flex;
+    text-align: center;
+}
+
+.div60 ul div{
+    width: 50%;
+}
+.div60 ul div img{
+    width: 100%;
+}
+
+
+
+
+/* Menu Cascada */
+ul{
+    display: block;
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+ul a {
+    color: black;
+    background-color: green;
+    padding: 5px 2px;
+    border-radius: 20px;
+}
+
+ul li ul{
+    display: none;
+    margin-bottom: 5px;
+}
+
+ul li:hover ul{
+    display: block;
+    animation: ImHere 1.5s ;
+}
+
+@keyframes ImHere {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+/* VentanaModal */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:silver;
+    z-index: 99999;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal:target{
+    opacity: 1;
+    pointer-events: auto;
+    animation: ItsMe 1.5s;
+}
+
+.modal > div{
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(180, 174, 164);
+    text-align: center;
+}
+
+.modal > div > img{
+    width: 30%;
+    height: 10%;
+    border-radius: 500px;
+}
+
+.OpenModal:hover{
+    border-radius: 20px;
+    padding: 5px;
+    background: blue;
+    color: white;
+}
+.CloseModal:hover{
+    border-radius: 20px;
+    padding: 5px;
+    background: blue;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@keyframes ItsMe {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
