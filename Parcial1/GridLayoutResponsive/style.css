@@ -25,7 +25,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
         grid-template-rows: 20% 40% 40%;
         grid-template-areas:    "menulat menulat"
                                 "encab col1"
@@ -40,7 +40,7 @@
 
 @media screen and (max-width:1200px) {
     .content{
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 30% 70%;
         grid-template-rows: 20% 40% 40%;
         grid-template-areas:    "menulat menulat"
                                 "encab col1"
