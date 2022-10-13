@@ -4,13 +4,7 @@ body{
   box-sizing: border-box;
 }
 
-.Contenedor{
-  display: grid;
- grid-template-columns: 100%;
- grid-template-rows: 15% 85%;
- grid-template-areas: "NavBar"
-                      "Info"; 
-}
+
 
 #Info{
   
@@ -26,23 +20,31 @@ body{
 #NavBar ul{
   list-style-type: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #NavBar ul li{
-  text-align: center;
+  user-select: none;
+  background-color: black;
+  color: white;
   font-size: 1.6em;
   margin: 10px;
   padding: 10px;
-  background-color: aqua;
   border-radius: 20px;
 }
-
-#NavBar ul li:hover{
-  background-color: black;
-  color: white;
+.delegado{
+  animation: grow 1s infinite;
 }
 
-#NavBar ul li .delegacion{
-  background-color: green;
-color: red;
+@keyframes grow {
+  0%{
+    font-size: 1.6em;
+  }
+  50%{
+    font-size: 1em;
+  }
+  100%{
+    font-size: 1.6em;
+  }
 }
 
