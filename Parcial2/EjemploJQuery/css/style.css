@@ -4,22 +4,11 @@ body{
   box-sizing: border-box;
 }
 
-.Contenedor{
-  display: grid;
- grid-template-columns: 100%;
- grid-template-rows: 15% 85%;
- grid-template-areas: "NavBar"
-                      "Info"; 
-}
-
 #Info{
-  
   background-color: aqua;
-  grid-area: "Info";
 }
 #NavBar{
   background-color: beige;
-  grid-area: "NavBar";
 
 }
 
@@ -29,7 +18,7 @@ body{
 }
 #NavBar ul li{
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin: 10px;
   padding: 10px;
   background-color: aqua;
@@ -40,3 +29,16 @@ body{
   background-color: black;
   color: white;
 }
+
+.codeBox{
+  background-color: black;
+  color: green;
+  height: 100vh;
+}
+
+#myBug{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+

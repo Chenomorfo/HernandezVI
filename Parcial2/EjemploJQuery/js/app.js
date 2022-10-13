@@ -1,17 +1,27 @@
-var msj
-$(document).ready(function(){
+var loop = false;
+var nInterval;
+$(document).ready(function () {
     console.log('Estoy vivo')
 
-    $('#evento').click(function(){
-        for(i=0;i<1000;i++){
+    $('#evento').click(function () {
+        loop = !loop
+        if (!loop) {
+            clearInterval(nInterval);
+            $('#myBug').text("")
+        } else {
+            nInterval = setInterval(myBug, 50);
 
         }
     })
 
-
-
 })
 
-myBug() = function(){
-    
+
+function myBug() {
+    var result="";
+    var characters = 'ABCDEFGHIJKLMNOPQRS1000fghijklmnopqrstuvwxyz0123456789';
+    for (let index = 0; index < 2000; index++) {
+        result += (' ' + characters.charAt(Math.floor(Math.random() * characters.length)))
+    }
+    $('#myBug').text(result)
 }
