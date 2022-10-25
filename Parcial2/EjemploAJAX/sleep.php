@@ -1,6 +1,6 @@
 <?php 
 sleep(1);
-echo(Hola);
+echo ("HOLA MUNDO");
 
 ?>
 
