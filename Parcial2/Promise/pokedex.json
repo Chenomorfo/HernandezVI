@@ -1,0 +1,658 @@
+[
+  {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/",
+    "img": "./imgs/1gen/001.png"
+  },
+  {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/",
+    "img": "./imgs/1gen/002.png"
+  },
+  {
+    "name": "venusaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/3/",
+    "img": "./imgs/1gen/003.png"
+  },
+  {
+    "name": "charmander",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/4/",
+    "img": "./imgs/1gen/004.png"
+  },
+  {
+    "name": "charmeleon",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/5/",
+    "img": "./imgs/1gen/005.png"
+  },
+  {
+    "name": "charizard",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/6/",
+    "img": "./imgs/1gen/006.png"
+  },
+  {
+    "name": "squirtle",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/7/",
+    "img": "./imgs/1gen/007.png"
+  },
+  {
+    "name": "wartortle",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/8/",
+    "img": "./imgs/1gen/008.png"
+  },
+  {
+    "name": "blastoise",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/9/",
+    "img": "./imgs/1gen/009.png"
+  },
+  {
+    "name": "caterpie",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/10/",
+    "img": "./imgs/1gen/010.png"
+  },
+  {
+    "name": "metapod",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/11/",
+    "img": "./imgs/1gen/011.png"
+  },
+  {
+    "name": "butterfree",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/12/",
+    "img": "./imgs/1gen/012.png"
+  },
+  {
+    "name": "weedle",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/13/",
+    "img": "./imgs/1gen/001.png"
+  },
+  {
+    "name": "kakuna",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/14/",
+    "img": "./imgs/1gen/014.png"
+  },
+  {
+    "name": "beedrill",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/15/",
+    "img": "./imgs/1gen/015.png"
+  },
+  {
+    "name": "pidgey",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/16/",
+    "img": "./imgs/1gen/016.png"
+  },
+  {
+    "name": "pidgeotto",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/17/",
+    "img": "./imgs/1gen/017.png"
+  },
+  {
+    "name": "pidgeot",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/18/",
+    "img": "./imgs/1gen/018.png"
+  },
+  {
+    "name": "rattata",
+    "img": "./imgs/1gen/019.png"
+  },
+  {
+    "name": "raticate",
+    "img": "./imgs/1gen/020.png"
+  },
+  {
+    "name": "spearow",
+    "img": "./imgs/1gen/021.png"
+  },
+  {
+    "name": "fearow",
+    "img": "./imgs/1gen/022.png"
+  },
+  {
+    "name": "ekans",
+    "img": "./imgs/1gen/023.png"
+  },
+  {
+    "name": "arbok",
+    "img": "./imgs/1gen/024.png"
+  },
+  {
+    "name": "pikachu",
+    "img": "./imgs/1gen/025.png"
+  },
+  {
+    "name": "raichu",
+    "img": "./imgs/1gen/026.png"
+  },
+  {
+    "name": "sandshrew",
+    "img": "./imgs/1gen/027.png"
+  },
+  {
+    "name": "sandslash",
+    "img": "./imgs/1gen/028.png"
+  },
+  {
+    "name": "nidoran-f",
+    "img": "./imgs/1gen/029.png"
+  },
+  {
+    "name": "nidorina",
+    "img": "./imgs/1gen/030.png"
+  },
+  {
+    "name": "nidoqueen",
+    "img": "./imgs/1gen/031.png"
+  },
+  {
+    "name": "nidoran-m",
+    "img": "./imgs/1gen/032.png"
+  },
+  {
+    "name": "nidorino",
+    "img": "./imgs/1gen/033.png"
+  },
+  {
+    "name": "nidoking",
+    "img": "./imgs/1gen/034.png"
+  },
+  {
+    "name": "clefairy",
+    "img": "./imgs/1gen/035.png"
+  },
+  {
+    "name": "clefable",
+    "img": "./imgs/1gen/036.png"
+  },
+  {
+    "name": "vulpix",
+    "img": "./imgs/1gen/037.png"
+  },
+  {
+    "name": "ninetales",
+    "img": "./imgs/1gen/038.png"
+  },
+  {
+    "name": "jigglypuff",
+    "img": "./imgs/1gen/039.png"
+  },
+  {
+    "name": "wigglytuff",
+    "img": "./imgs/1gen/040.png"
+  },
+  {
+    "name": "zubat",
+    "img": "./imgs/1gen/041.png"
+  },
+  {
+    "name": "golbat",
+    "img": "./imgs/1gen/042.png"
+  },
+  {
+    "name": "oddish",
+    "img": "./imgs/1gen/043.png"
+  },
+  {
+    "name": "gloom",
+    "img": "./imgs/1gen/044.png"
+  },
+  {
+    "name": "vileplume",
+    "img": "./imgs/1gen/045.png"
+  },
+  {
+    "name": "paras",
+    "img": "./imgs/1gen/046.png"
+  },
+  {
+    "name": "parasect",
+    "img": "./imgs/1gen/047.png"
+  },
+  {
+    "name": "venonat",
+    "img": "./imgs/1gen/048.png"
+  },
+  {
+    "name": "venomoth",
+    "img": "./imgs/1gen/049.png"
+  },
+  {
+    "name": "diglett",
+    "img": "./imgs/1gen/050.png"
+  },
+  {
+    "name": "dugtrio",
+    "img": "./imgs/1gen/051.png"
+  },
+  {
+    "name": "meowth",
+    "img": "./imgs/1gen/052.png"
+  },
+  {
+    "name": "persian",
+    "img": "./imgs/1gen/053.png"
+  },
+  {
+    "name": "psyduck",
+    "img": "./imgs/1gen/054.png"
+  },
+  {
+    "name": "golduck",
+    "img": "./imgs/1gen/055.png"
+  },
+  {
+    "name": "mankey",
+    "img": "./imgs/1gen/056.png"
+  },
+  {
+    "name": "primeape",
+    "img": "./imgs/1gen/057.png"
+  },
+  {
+    "name": "growlithe",
+    "img": "./imgs/1gen/058.png"
+  },
+  {
+    "name": "arcanine",
+    "img": "./imgs/1gen/059.png"
+  },
+  {
+    "name": "poliwag",
+    "img": "./imgs/1gen/060.png"
+  },
+  {
+    "name": "poliwhirl",
+    "img": "./imgs/1gen/061.png"
+  },
+  {
+    "name": "poliwrath",
+    "img": "./imgs/1gen/062.png"
+  },
+  {
+    "name": "abra",
+    "img": "./imgs/1gen/063.png"
+  },
+  {
+    "name": "kadabra",
+    "img": "./imgs/1gen/064.png"
+  },
+  {
+    "name": "alakazam",
+    "img": "./imgs/1gen/065.png"
+  },
+  {
+    "name": "machop",
+    "img": "./imgs/1gen/066.png"
+  },
+  {
+    "name": "machoke",
+    "img": "./imgs/1gen/067.png"
+  },
+  {
+    "name": "machamp",
+    "img": "./imgs/1gen/068.png"
+  },
+  {
+    "name": "bellsprout",
+    "img": "./imgs/1gen/069.png"
+  },
+  {
+    "name": "weepinbell",
+    "img": "./imgs/1gen/070.png"
+  },
+  {
+    "name": "victreebel",
+    "img": "./imgs/1gen/071.png"
+  },
+  {
+    "name": "tentacool",
+    "img": "./imgs/1gen/072.png"
+  },
+  {
+    "name": "tentacruel",
+    "img": "./imgs/1gen/073.png"
+  },
+  {
+    "name": "geodude",
+    "img": "./imgs/1gen/074.png"
+  },
+  {
+    "name": "graveler",
+    "img": "./imgs/1gen/075.png"
+  },
+  {
+    "name": "golem",
+    "img": "./imgs/1gen/076.png"
+  },
+  {
+    "name": "ponyta",
+    "img": "./imgs/1gen/077.png"
+  },
+  {
+    "name": "rapidash",
+    "img": "./imgs/1gen/078.png"
+  },
+  {
+    "name": "slowpoke",
+    "img": "./imgs/1gen/079.png"
+  },
+  {
+    "name": "slowbro",
+    "img": "./imgs/1gen/080.png"
+  },
+  {
+    "name": "magnemite",
+    "img": "./imgs/1gen/081.png"
+  },
+  {
+    "name": "magneton",
+    "img": "./imgs/1gen/082.png"
+  },
+  {
+    "name": "farfetchd",
+    "img": "./imgs/1gen/083.png"
+  },
+  {
+    "name": "doduo",
+    "img": "./imgs/1gen/084.png"
+  },
+  {
+    "name": "dodrio",
+    "img": "./imgs/1gen/085.png"
+  },
+  {
+    "name": "seel",
+    "img": "./imgs/1gen/086.png"
+  },
+  {
+    "name": "dewgong",
+    "img": "./imgs/1gen/087.png"
+  },
+  {
+    "name": "grimer",
+    "img": "./imgs/1gen/088.png"
+  },
+  {
+    "name": "muk",
+    "img": "./imgs/1gen/089.png"
+  },
+  {
+    "name": "shellder",
+    "img": "./imgs/1gen/090.png"
+  },
+  {
+    "name": "cloyster",
+    "img": "./imgs/1gen/091.png"
+  },
+  {
+    "name": "gastly",
+    "img": "./imgs/1gen/092.png"
+  },
+  {
+    "name": "haunter",
+    "img": "./imgs/1gen/093.png"
+  },
+  {
+    "name": "gengar",
+    "img": "./imgs/1gen/094.png"
+  },
+  {
+    "name": "onix",
+    "img": "./imgs/1gen/095.png"
+  },
+  {
+    "name": "drowzee",
+    "img": "./imgs/1gen/096.png"
+  },
+  {
+    "name": "hypno",
+    "img": "./imgs/1gen/097.png"
+  },
+  {
+    "name": "krabby",
+    "img": "./imgs/1gen/098.png"
+  },
+  {
+    "name": "kingler",
+    "img": "./imgs/1gen/099.png"
+  },
+  {
+    "name": "voltorb",
+    "img": "./imgs/1gen/100.png"
+  },
+  {
+    "name": "electrode",
+    "img": "./imgs/1gen/101.png"
+  },
+  {
+    "name": "exeggcute",
+    "img": "./imgs/1gen/102.png"
+  },
+  {
+    "name": "exeggutor",
+    "img": "./imgs/1gen/103.png"
+  },
+  {
+    "name": "cubone",
+    "img": "./imgs/1gen/104.png"
+  },
+  {
+    "name": "marowak",
+    "img": "./imgs/1gen/105.png"
+  },
+  {
+    "name": "hitmonlee",
+    "img": "./imgs/1gen/106.png"
+  },
+  {
+    "name": "hitmonchan",
+    "img": "./imgs/1gen/107.png"
+  },
+  {
+    "name": "lickitung",
+    "img": "./imgs/1gen/108.png"
+  },
+  {
+    "name": "koffing",
+    "img": "./imgs/1gen/109.png"
+  },
+  {
+    "name": "weezing",
+    "img": "./imgs/1gen/110.png"
+  },
+  {
+    "name": "rhyhorn",
+    "img": "./imgs/1gen/111.png"
+  },
+  {
+    "name": "rhydon",
+    "img": "./imgs/1gen/112.png"
+  },
+  {
+    "name": "chansey",
+    "img": "./imgs/1gen/113.png"
+  },
+  {
+    "name": "tangela",
+    "img": "./imgs/1gen/114.png"
+  },
+  {
+    "name": "kangaskhan",
+    "img": "./imgs/1gen/115.png"
+  },
+  {
+    "name": "horsea",
+    "img": "./imgs/1gen/116.png"
+  },
+  {
+    "name": "seadra",
+    "img": "./imgs/1gen/117.png"
+  },
+  {
+    "name": "goldeen",
+    "img": "./imgs/1gen/118.png"
+  },
+
+  {
+    "name": "seaking",
+    "img": "./imgs/1gen/119.png"
+  },
+  {
+    "name": "staryu",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/120/"
+    ,"img": "./imgs/1gen/120.png"
+  },
+  {
+    "name": "starmie",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/121/"
+    ,"img": "./imgs/1gen/121.png"
+  },
+  {
+    "name": "mr-mime",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/122/"
+    ,"img": "./imgs/1gen/122.png"
+  },
+  {
+    "name": "scyther",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/123/"
+    ,"img": "./imgs/1gen/123.png"
+  },
+  {
+    "name": "jynx",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/124/"
+    ,"img": "./imgs/1gen/124.png"
+  },
+  {
+    "name": "electabuzz",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/125/"
+    ,"img": "./imgs/1gen/125.png"
+  },
+  {
+    "name": "magmar",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/126/"
+    ,"img": "./imgs/1gen/126.png"
+  },
+  {
+    "name": "pinsir",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/127/"
+    ,"img": "./imgs/1gen/127.png"
+  },
+  {
+    "name": "tauros",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/128/"
+    ,"img": "./imgs/1gen/128.png"
+  },
+  {
+    "name": "magikarp",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/129/"
+    ,"img": "./imgs/1gen/129.png"
+  },
+  {
+    "name": "gyarados",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/130/"
+    ,"img": "./imgs/1gen/130.png"
+  },
+  {
+    "name": "lapras",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/131/"
+    ,"img": "./imgs/1gen/131.png"
+  },
+  {
+    "name": "ditto",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/132/"
+    ,"img": "./imgs/1gen/132.png"
+  },
+  {
+    "name": "eevee",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/133/"
+    ,"img": "./imgs/1gen/133.png"
+  },
+  {
+    "name": "vaporeon",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/134/"
+    ,"img": "./imgs/1gen/134.png"
+  },
+  {
+    "name": "jolteon",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/135/"
+    ,"img": "./imgs/1gen/135.png"
+  },
+  {
+    "name": "flareon",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/136/"
+    ,"img": "./imgs/1gen/136.png"
+  },
+  {
+    "name": "porygon",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/137/"
+    ,"img": "./imgs/1gen/137.png"
+  },
+  {
+    "name": "omanyte",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/138/"
+    ,"img": "./imgs/1gen/138.png"
+  },
+  {
+    "name": "omastar",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/139/"
+    ,"img": "./imgs/1gen/139.png"
+  },
+  {
+    "name": "kabuto",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/140/"
+    ,"img": "./imgs/1gen/140.png"
+  },
+  {
+    "name": "kabutops",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/141/"
+    ,"img": "./imgs/1gen/141.png"
+  },
+  {
+    "name": "aerodactyl",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/142/"
+    ,"img": "./imgs/1gen/142.png"
+  },
+  {
+    "name": "snorlax",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/143/"
+    ,"img": "./imgs/1gen/143.png"
+  },
+  {
+    "name": "articuno",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/144/"
+    ,"img": "./imgs/1gen/144.png"
+  },
+  {
+    "name": "zapdos",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/145/"
+    ,"img": "./imgs/1gen/145.png"
+  },
+  {
+    "name": "moltres",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/146/"
+    ,"img": "./imgs/1gen/146.png"
+  },
+  {
+    "name": "dratini",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/147/"
+    ,"img": "./imgs/1gen/147.png"
+  },
+  {
+    "name": "dragonair",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/148/"
+    ,"img": "./imgs/1gen/148.png"
+  },
+  {
+    "name": "dragonite",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/149/"
+    ,"img": "./imgs/1gen/149.png"
+
+  },
+  {
+    "name": "mewtwo",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/150/"
+    ,"img": "./imgs/1gen/150.png"
+  },
+  {
+    "name": "mew",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/151/",
+    "img": "./imgs/1gen/151.png"
+  }
+]

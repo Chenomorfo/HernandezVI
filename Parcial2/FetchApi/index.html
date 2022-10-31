@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../BootStrap/css/bootstrap.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class="text-center">Fetch Api Translate </h1>
+        <h3 class="text-center">Preference text in english </h3>
+        <h4>Only 5 per hour</h4>
+
+        <div class="col-md-6 mx-auto mt-5">
+            <label for="textApi">Text your message</label>
+            <textarea id="textApi" type="text" class="form-control mb-2"></textarea>
+            <select name="form-select" id="translate">
+                <option selected hidden>Select your translate</option>
+                <option value="morse">Morse</option>
+                <option value="sith">Sith</option>
+                <option value="gungan">Gungan</option>
+                <option value="brooklyn">Brooklyn</option>
+                <option value="minion">Minion</option>
+                <option value="yoda">Yoda</option>
+            </select>
+
+            <button id="click">Translate it!</button>
+
+            <div class="card mt-2">
+                <div id="result" class="card-body">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="../../BootStrap/js/bootstrap.js"></script>
+<script src="../jquery-3.6.1.min.js"></script>
+<script src="./app.js"></script>
+</html>
