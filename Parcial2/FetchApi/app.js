@@ -12,7 +12,7 @@ function getFetch(text, translate) {
     .then((data) => data.json())
     .then((item) => {
       console.log(item);
-      $("#result").text(item.contains.translated);
+      $("#result").text(item.contents.translated);
     })
     .catch((err) => console.log(err));
 }
