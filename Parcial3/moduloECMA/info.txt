@@ -1,0 +1,3 @@
+Este archivo se abre en app.js dentro de la carpeta build
+
+la carpeta src contiene solamente archivos en formato TS
