@@ -149,7 +149,7 @@ body {
   height: 300px;
   background-color: blueviolet;
   transform: scale(100%);
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 60% 20 20%;
   transition: transform 0.5s ease-in-out;
 }
 .user .allUsers .card img {

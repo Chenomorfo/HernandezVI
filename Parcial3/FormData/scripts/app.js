@@ -144,6 +144,9 @@ all.addEventListener("click", async () => {
     var card = `<div class="card">
     <img src="${item[2]}" alt="">
     <h3>#${item[0]} - ${item[1]}</h3>
+    <div>
+    <button>Delete</button>
+    </div>
   </div>`;
 
     cards += card;

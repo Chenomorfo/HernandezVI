@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    width: 80vw;
+    margin: auto auto;
+}
+
+#CardList{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    .Card{
+        margin-top: 15px;
+        background-color: red;
+        width: 240px;
+        height: 400px;
+        display: grid;
+        grid-template-rows: 20% 50% 30%;
+
+        transform: scale(90%);
+        transition: transform 0.15s ease-in;
+
+        *{
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Title{
+            height: 100%;
+            width: 100%;
+            background-color: purple;
+        }
+        .Portrait{
+            height: 100%;
+            width: 100%;
+            
+            background-color: blue;
+        }
+        .Description{
+            height: 100%;
+            width: 100%;
+            background-color: green;
+        }
+    }
+
+    .Card:hover{
+        transform: scale(110%);
+    }
+}
