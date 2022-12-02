@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <button id="aBtn" style="display: flex;
+        width: 200px;
+        height: 125px;
+        align-items: center;
+        justify-content: center;">CREAR PDF</button>
+        
+    </body>
+
+    <script>
+
+        document.getElementById('aBtn').addEventListener('click',async()=>{
+
+            var data = new FormData();
+        data.append('user','Cheno');
+        data.append('email','Cheno@Cheno.mx');
+
+            let query = await fetch('./makePDF.php',{
+                method:'POST',
+                body:data
+            });
+
+            let myPDF = await query.blob();
+            let Url = URL.createObjectURL(myPDF);
+            window.open(Url)
+
+        })
+
+    </script>
+
+    </html>
